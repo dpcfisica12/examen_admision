@@ -1,0 +1,11 @@
+Dentro del archivo views se encuentran implmentadas las 3 funciones con las que se obtienen
+los datos de salida reuqeridos para cada uno de los 3 problemas planteados: Season,
+Customer_Order, detecting_changes.
+
+Dentro del archivo sqlite3se encuentran 3 tablas que corresponden a los inputs de los 3 pro-
+blemas planteados.
+
+La funcion read lee la data en formato sqlite3 dentro del archivo sqlite3, y la transforma 
+a 3 dataframes (uno por cada tabla).
+
+Dentro del archivo urls se encuentra la ruta asociada a la respuesta https que ejecuta la funcion run (del archivo views), el cual trae la salida esperada por cada tabla.
